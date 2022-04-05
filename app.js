@@ -13,3 +13,11 @@ const domain = [
     ".cl",
     ".dev"
 ];
+
+for(let i=0; i < subject.length; i++){
+    for(let e=0; e < verb.length; e++){
+        for(let j=0; j < domain.length; j++){
+            console.log(subject[i]+verb[e]+domain[j]);
+        }
+    }
+}
